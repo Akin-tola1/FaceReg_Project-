@@ -10,7 +10,7 @@ st.image('pngwing.com (6).png', caption = 'FACE DETECTOR', width = 400)
 # Create a line and a space underneath
 st.markdown('<hr><hr><br>', unsafe_allow_html= True)
 
-# Add instructions to the Streamlit app interface to guide the user on how to use the app.
+
 if st.button('Read the usage Instructions below'):
     st.success('Hello User, these are the guidelines for the app usage')
     st.write('Press the camera button for our model to detect your face')
